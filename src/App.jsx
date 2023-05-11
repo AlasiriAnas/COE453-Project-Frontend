@@ -1,8 +1,19 @@
-import "./App.css"
+import NavBar from './Components/NavBar'
+import  './styles.css'
 
 
 export default function App(){
 
-  return 'hi'
+    return(
+
+        <div className='App'>
+
+            <NavBar/>
+            
+        </div>
+
+
+    )
+
 
 }
