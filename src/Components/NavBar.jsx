@@ -1,8 +1,5 @@
 import React, {useState} from 'react';
 import './NavBar.css'
-import MenuIcon from '@mui/icons-material/Menu';
-import CloseIcon from '@mui/icons-material/Close';
-import IconButton from '@mui/material/IconButton';
 import logo from '../assets/logo.svg' 
 import { MdMenu } from "react-icons/md";
 import { MdClose } from "react-icons/md";
@@ -24,8 +21,8 @@ export default function NavBar (){
                 <ul id="NavList" className={
                     click? "#NavList active":
                "NavList" }>
-                    <li><a href="index.html">Add Tasks</a></li>
-                    <li><a href="index.html">Display All Tasks</a></li>
+                    <li><a href="Tasks">Add Tasks</a></li>
+                    <li><a href="DisplayAllTasks">Display All Tasks</a></li>
                 </ul>
             </div>
             <div id="Mobile-Screen" onClick={handleClick}>

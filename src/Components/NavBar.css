@@ -4,9 +4,9 @@ nav{
     align-items: center;
     justify-content: space-between;
     background: #596E79;
-    padding: 20px 65px;
+    padding: 1.25rem 4.063rem;
     margin: 0;
-    box-shadow: 0 5px 15px rgba(0,  0, 0, 0.06);
+    box-shadow: 0 0.313rem 0.938rem rgba(0,  0, 0, 0.06);
 }
 
 
@@ -21,7 +21,7 @@ nav{
 #NavList li {
 
     list-style: none;
-    padding: 0 20px;
+    padding: 0 1.25rem;
     position: relative;
 }
 
@@ -43,11 +43,11 @@ nav{
 
     content: "";
     width: 60%;
-    height: 2px;
+    height:0.125rem;
     background: #F7F7F7;
     position: absolute;
-    bottom: -4px;
-    left: 20px;
+    bottom: -0.25rem;
+    left: 1.25rem;
 }
 
 #Mobile-Screen i{
@@ -68,13 +68,13 @@ nav{
         justify-content:flex-start;
         position: fixed;
         top: 5.07rem;
-        right: -300px;
-        width: 300px;
+        right: -18.75rem;
+        width: 18.75rem;
         height: 100vh;
         background: #202020;
-        box-shadow: 0 40px 60px rgba(0,  0, 0, 0.1);
+        box-shadow: 0 2.5rem 3.75rem rgba(0,  0, 0, 0.1);
 
-        padding: 40px 0 0 10px;
+        padding: 2.5rem 0 0 0.625rem;
 
     }
     #NavList.active {
@@ -82,7 +82,7 @@ nav{
     }
     #NavList li{
 
-       margin-bottom: 25px;
+       margin-bottom: 1.563rem;
         
 
     }
@@ -104,11 +104,11 @@ nav{
     
         content: "";
         width: 60%;
-        height: 2px;
+        height: 0.125rem;
         background: #858585;
         position: absolute;
-        bottom: -4px;
-        left: 20px;
+        bottom: -0.25rem;
+        left: 1.25rem;
         transition:0.2s ease-in-out ;
     }
     #Mobile-Screen i{
@@ -117,7 +117,7 @@ nav{
     }
 
     #Mobile-Screen i{
-        font-size: 24px;
+        font-size: 1.5rem;
         cursor: pointer;
     }
 }
